@@ -206,7 +206,7 @@ body {
 #tabla {
    border: solid 1px;
    color: rgb(26, 26, 25);
-   background-color: #868383;
+   background-color: #7875B5;
    font-size: 18px;
 
 }
@@ -226,7 +226,7 @@ body {
  
 
   .th{
-	background-color: #868383;
+	background-color: #7875B5;
 	height: 2rem;
 	width: 8rem;
 	border-radius: 5px;
