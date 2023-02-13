@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>estudiante</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <!-- <div class="contenedor">
+      <div class="form">
+        <label for="nombre">nombre del estudiante</label>
+        <input type="text" id="nombre" />
+
+        <label for="curso">curso</label>
+        <select class="form-select" id="curso" name="select">
+          <option></option>
+
+          <option value="sistemas">sistemas</option>
+          <option value="circuitos">circuitos</option>
+          <option value="sofware">sofware</option>
+        </select>
+
+        <label for="genero">genero</label>
+        <select class="form-select" id="genero" name="select">
+          <option></option>
+          <option value="masculino">masculino</option>
+          <option value="femenino">femenino</option>
+        </select>
+        <label for="nota1">1° nota</label>
+        <input type="number" id="nota1" />
+        <label for="nota2">2° nota</label>
+        <input type="number" id="nota2" />
+        <label for="nota3">3° nota</label>
+        <input type="number" id="nota3" />
+
+        <div class="button">
+          <button id="agregar">agregar</button>
+          <button id="mostrar">mostrar</button>
+          <button id="eliminar">eliminar</button>
+        </div>
+      </div>
+
+
+    </div> -->
+
+    <div class="container">
+        <div class="screen">
+            <div class="form__content">
+                <div id="login">
+                    <div class="login__field">
+                        <label for="nombre">nombre del estudiante</label><br>
+                        <input type="text" id="nombre" class="login__input" placeholder="nombre">
+                    </div>
+                    <div class="select">
+                        <div class="login__field">
+                            <label   for="curso">curso</label><br>
+                            <select class="login__input" id="curso" name="select"><br>
+                               
+                                <option></option>
+
+                                <option value="sistemas">sistemas</option>
+                                <option value="circuitos">circuitos</option>
+                                <option value="sofware">sofware</option>
+                            </select>
+                        </div>
+                    </div>
+              
+                    <div class="select">
+                        <div class="login__field">
+                            <label  for="genero">genero</label><br>
+                            <select class="login__input" id="genero" name="select" >
+                             
+                                <option></option>
+
+                                <option value="masculino">masculino</option>
+                                <option value="femenino">femenino</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="login__field">
+                        <label for="nota1">1°nota</label><br>
+                        <input type="number" id="nota1" class="login__input" placeholder="1°nota">
+                    </div>
+                    <div class="login__field">
+                        <label for="nota2">2°nota</label><br>
+                        <input type="number" id="nota2" class="login__input" placeholder="2°nota">
+                    </div>
+                    <div class="login__field">
+                        <label for="nota3">3° nota</label><br>
+                        <input type="number" id="nota3" class="login__input" placeholder="3° nota">
+                    </div>
+                    <div class="buton">
+                        <button id="agregar" class="button login__submit">
+                            <span class="button__text">agregar</span>
+                            <i class="button__icon fas fa-chevron-right"></i>
+                        </button>
+                        <button id="mostrar" class="button login__submit">
+                            <span class="button__text">mostrar</span>
+                            <i class="button__icon fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                    </button>
+                    <button id="eliminar" class="button login__submit">
+                        <span class="button__text">eliminar</span>
+                        <i class="button__icon fas fa-chevron-right"></i>
+                    </button>
+                </div>
+
+            </div>
+            <div class="screen__background">
+                <span class="screen__background__shape screen__background__shape4"></span>
+                <span class="screen__background__shape screen__background__shape3"></span>
+                <span class="screen__background__shape screen__background__shape2"></span>
+                <span class="screen__background__shape screen__background__shape1"></span>
+            </div>
+        </div>
+        <div class="table-header">
+            <table>
+                <thead>
+                    <tr>
+                        <th>nombre</th>
+                        <th>curso</th>
+                        <th>genero</th>
+                        <th>promedio</th>
+                    </tr>
+                </thead>
+                <tbody id="tabla"></tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
