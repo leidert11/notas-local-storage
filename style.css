@@ -204,8 +204,10 @@ body {
 }
 
 #tabla {
-    border: solid 1px;
-    color: rgb(73, 73, 68);
+   border: solid 1px;
+   color: rgb(26, 26, 25);
+   background-color: #868383;
+   font-size: 18px;
 
 }
 
@@ -223,4 +225,9 @@ body {
  }
  
 
- 
+  .th{
+	background-color: #868383;
+	height: 2rem;
+	width: 8rem;
+	border-radius: 5px;
+ }
